@@ -119,9 +119,29 @@ hr {
   text-transform: uppercase; }
 
 .card {
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  padding-top: 2rem;
+  color: #333333; }
   .card__side {
-    background-color: #E16A2C; }
+    background-color: #E16A2C;
+    padding: 3rem;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    margin: 0 auto; }
+    .card__side-picture-3 {
+      padding-top: .8rem; }
+    .card__side-picture-4 {
+      padding-top: .8rem; }
+    .card__side-picture-5 {
+      padding-top: .8rem; }
+  .card__body {
+    padding: 3rem 3rem 2rem 3rem; }
+  .card__heading {
+    margin-bottom: 2.8rem; }
+    .card__heading > h2 {
+      font-size: 2.4rem; }
+  .card__paragraph > p {
+    font-size: 1.3rem; }
 
 .header__video-container {
   width: 100rem;
@@ -195,3 +215,6 @@ hr {
 
 .section-plans {
   margin-top: -10vh; }
+
+.section-facilities {
+  padding: 5rem; }
